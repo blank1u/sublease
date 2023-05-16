@@ -1,0 +1,27 @@
+{
+  "name": "sublease",
+  "version": "0.1.0",
+  "description": "通过puppeteer连接dapp,实现钱包自动化操作.",
+  "type": "module",
+  "exports": "./index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "puppeteer",
+    "auto",
+    "web3",
+    "dapp",
+    "wallet"
+  ],
+  "author": "SuDAO",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "ethers": "^6.3.0",
+    "puppeteer-core": "^20.2.0"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}
